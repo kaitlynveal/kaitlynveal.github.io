@@ -5,7 +5,7 @@ body {
   color: #222;
 }
 
-/* NAVBAR (clean + centered like that site) */
+/* NAVBAR */
 .navbar {
   text-align: center;
   padding: 20px 10px;
@@ -41,8 +41,45 @@ h2 {
   margin-top: 30px;
 }
 
-/* PROJECT BLOCKS (for portfolio page) */
+/* PROJECT BLOCKS */
 .project {
   border-bottom: 1px solid #eee;
   padding: 15px 0;
+}
+
+/* SOCIAL BUTTONS */
+.social-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+  font-size: 15px;
+}
+
+.github {
+  background: #333;
+}
+
+.github:hover {
+  background: #000;
+}
+
+.linkedin {
+  background: #0077b5;
+}
+
+.linkedin:hover {
+  background: #005582;
 }
