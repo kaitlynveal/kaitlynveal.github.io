@@ -5,7 +5,10 @@ body {
   color: #222;
 }
 
-/* NAVBAR */
+/* =======================
+   NAVBAR
+======================= */
+
 .navbar {
   text-align: center;
   padding: 20px 10px;
@@ -24,14 +27,20 @@ body {
   color: #0077cc;
 }
 
-/* PAGE LAYOUT */
+/* =======================
+   PAGE LAYOUT
+======================= */
+
 .container {
   max-width: 800px;
   margin: auto;
   padding: 40px 20px;
 }
 
-/* HEADINGS */
+/* =======================
+   HEADINGS
+======================= */
+
 h1 {
   font-size: 32px;
   margin-bottom: 5px;
@@ -41,19 +50,18 @@ h2 {
   margin-top: 30px;
 }
 
-/* PROJECT BLOCKS */
+/* =======================
+   PROJECT BLOCKS
+======================= */
+
 .project {
   border-bottom: 1px solid #eee;
   padding: 15px 0;
 }
 
-/* SOCIAL BUTTONS */
-.social-buttons {
-  display: flex;
-  gap: 15px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-}
+/* =======================
+   BUTTON SYSTEM (FIXED)
+======================= */
 
 .btn {
   display: inline-flex;
@@ -62,37 +70,32 @@ h2 {
   padding: 12px 18px;
   border-radius: 8px;
   text-decoration: none;
-  color: white;
   font-weight: bold;
-  transition: 0.2s;
-  font-size: 15px;
+  margin: 10px 0;
+  transition: 0.2s ease;
 }
 
+/* GitHub Button */
 .github {
   background: #333;
+  color: white;
 }
 
 .github:hover {
   background: #000;
 }
 
+/* LinkedIn Button */
 .linkedin {
   background: #0077b5;
+  color: white;
 }
 
 .linkedin:hover {
   background: #005582;
 }
 
-.btn {
-  display: inline-block;
-  padding: 12px 18px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
+/* PDF Button */
 .pdf {
   background: #0077cc;
   color: white;
@@ -100,4 +103,15 @@ h2 {
 
 .pdf:hover {
   background: #005fa3;
+}
+
+/* =======================
+   OPTIONAL SOCIAL BUTTONS LAYOUT
+======================= */
+
+.social-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
