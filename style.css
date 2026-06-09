@@ -4,3 +4,27 @@
   <a href="resume.html">Resume</a>
   <a href="contact.html">Contact</a>
 </nav>
+
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: navy;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+}
