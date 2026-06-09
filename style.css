@@ -1,36 +1,10 @@
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="portfolio.html">Portfolio</a>
-  <a href="resume.html">Resume</a>
-  <a href="contact.html">Contact</a>
-</nav>
-
-
 body {
-  font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-nav {
-  margin-bottom: 30px;
-}
-
-nav a {
-  margin-right: 15px;
-  text-decoration: none;
-  color: navy;
-}
-
-.project {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin-bottom: 15px;
-}
-
-
-/* Navigation Bar */
 .navbar {
     background-color: #2c3e50;
     padding: 15px;
@@ -47,4 +21,27 @@ nav a {
 
 .navbar a:hover {
     color: #3498db;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
 }
