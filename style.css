@@ -83,3 +83,21 @@ h2 {
 .linkedin:hover {
   background: #005582;
 }
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.pdf {
+  background: #0077cc;
+  color: white;
+}
+
+.pdf:hover {
+  background: #005fa3;
+}
