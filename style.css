@@ -1,47 +1,48 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #222;
 }
 
+/* NAVBAR (clean + centered like that site) */
 .navbar {
-    background-color: #2c3e50;
-    padding: 15px;
-    text-align: center;
+  text-align: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid #ddd;
+  background: white;
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
 }
 
 .navbar a:hover {
-    color: #3498db;
+  color: #0077cc;
 }
 
-main {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-    background-color: white;
+/* PAGE LAYOUT */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
+/* HEADINGS */
 h1 {
-    color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 5px;
 }
 
 h2 {
-    color: #34495e;
+  margin-top: 30px;
 }
 
+/* PROJECT BLOCKS (for portfolio page) */
 .project {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    background-color: #fafafa;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
 }
